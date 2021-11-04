@@ -1,1 +1,32 @@
+h1 {
+    color: blue;
+    font-size: 45px;
+}
 
+
+#b1, #b2, #b3, #b4, #b5,
+#b6, #b7, #b8, #b9 {
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 600px;
+}
+body {
+    text-align: center;
+}
+
+.grid{
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
